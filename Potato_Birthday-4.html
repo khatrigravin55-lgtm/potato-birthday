@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Potato 🎂</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    min-height:100vh; overflow-x:hidden; overflow-y:auto; font-family: "Trebuchet MS", system-ui, sans-serif;
+    background:linear-gradient(135deg,#fff1f7,#ffe6ef 45%,#f5e7ff);
+    color:#5b3b4d; display:flex; align-items:center; justify-content:center;
+  }
+  .glow{position:fixed;width:280px;height:280px;border-radius:50%;background:#fff;
+    filter:blur(65px);opacity:.7;top:-80px;right:-50px}
+  .card{
+    position:relative; z-index:5; width:min(90%,520px); padding:28px 24px;
+    text-align:center; border:1px solid rgba(255,255,255,.8);
+    background:rgba(255,255,255,.62); backdrop-filter:blur(15px);
+    border-radius:30px; box-shadow:0 20px 60px rgba(119,70,101,.18);
+    animation:pop .9s ease both;
+  }
+  .tag{font-size:13px;letter-spacing:4px;text-transform:uppercase;color:#b56a91;margin-bottom:10px}
+  h1{font-family:Georgia,serif;font-size:clamp(42px,12vw,68px);color:#8d416c;line-height:1}
+  .cake{font-size:76px;margin:16px 0 5px;animation:bounce 2s ease-in-out infinite}
+  h2{font-size:22px;color:#71435a;margin:8px 0 14px}
+  .note{font-size:16px;line-height:1.55;color:#725565;margin:auto;max-width:420px}
+  .wish{margin-top:22px;font-family:Georgia,serif;font-style:italic;color:#9a5279;font-size:18px}
+  .btn{
+    margin-top:24px;border:0;border-radius:999px;padding:13px 23px;
+    background:#b96791;color:#fff;font-weight:bold;cursor:pointer;
+    box-shadow:0 8px 20px rgba(185,103,145,.28);
+  }
+  .balloon{position:fixed;bottom:-130px;width:48px;height:62px;border-radius:50% 50% 45% 45%;
+    opacity:.82;animation:float linear infinite;z-index:2}
+  .balloon:after{content:"";position:absolute;width:1px;height:80px;background:#8e7b85;
+    left:50%;top:60px}
+  .b1{left:7%;background:#ff9fbd;animation-duration:9s}
+  .b2{left:23%;background:#c9a7ff;animation-duration:12s;animation-delay:1s}
+  .b3{left:74%;background:#ffd27d;animation-duration:10s;animation-delay:2s}
+  .b4{left:88%;background:#9dded1;animation-duration:13s;animation-delay:3s}
+  .spark{position:fixed;font-size:22px;animation:twinkle 2s infinite alternate;z-index:1}
+  .s1{top:10%;left:12%}.s2{top:17%;right:13%;animation-delay:.7s}.s3{bottom:14%;left:15%;animation-delay:1.2s}.s4{bottom:18%;right:16%;animation-delay:1.8s}
+  @keyframes float{from{transform:translateY(0) rotate(-5deg)}to{transform:translateY(-120vh) rotate(8deg)}}
+  @keyframes bounce{50%{transform:translateY(-8px) rotate(-2deg)}}
+  @keyframes pop{from{opacity:0;transform:scale(.86) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}
+  @keyframes twinkle{from{opacity:.25;transform:scale(.8)}to{opacity:1;transform:scale(1.2)}}
+  .confetti{position:fixed;width:8px;height:14px;top:-20px;z-index:10;animation:fall 3.2s linear forwards}
+  @keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+</style>
+</head>
+<body>
+<div class="glow"></div>
+
+<div class="balloon b1"></div><div class="balloon b2"></div>
+<div class="balloon b3"></div><div class="balloon b4"></div>
+
+<div class="spark s1">✦</div><div class="spark s2">♡</div>
+<div class="spark s3">✧</div><div class="spark s4">♡</div>
+
+<main class="card">
+  <div class="tag">a little birthday surprise</div>
+  <h1>Potato</h1>
+  <div class="cake">🎂</div>
+  <h2>Happy Birthday! 🥳💗</h2>
+  <p class="note">Happy Birthday Potato 🎂<br>
+Congrats, you’re older. Sadly, not wiser. 😂<br>
+
+I was going to write something nice about you… then I remembered who you are. 💀<br>
+
+Please enjoy your day before reality reminds you that you’re getting old. 😭<br>
+
+Another year of being cute, annoying, and unnecessarily dramatic. Impressive consistency. 😂<br>
+
+May you get everything you want today… except my snacks.<br>
+
+You’re honestly lucky you have a best friend like me. You’re welcome. 😌<br>
+
+Anyway, enough about you. Where’s my birthday cake?<br>
+
+Okay fine… Happy Birthday Potato aka REET<br>
+
+I won’t say “God bless you” coz you’ve already been blessed with my presence, so yeah… 👊😂<br>
+
+I don’t know what flower you like, so… 🥦<br>
+(Next time tell me what flower you like. I’m tryna bring em). 🤧<br>
+
+And idk why I’m saying this, but thanks for listening to my all shit. 😂<br>
+And sorry for being rude at the beginning… or now as well.<br>
+(That’s what you think. I don’t. 😁<br>
+
+Now go enjoy your day before I start charging 💲you for this birthday message...js kidding..</p>
+</main>
+
+
+</body>
+</html>
